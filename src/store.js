@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import MOCK_TRANSACTIONS from './mockData';
 
 export const useFinanceStore = create((set, get) => ({
-  transactions: M OCK_TRANSACTIONS,
+  transactions: MOCK_TRANSACTIONS,
   role: 'Admin',
   searchQuery: '',
   sortBy: 'date',
